@@ -1,8 +1,11 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, div, h1, img, text)
-import Html.Attributes exposing (src)
+import Html exposing (..)
+import Html.Attributes exposing (..)
+import Html.Events
+import Http
+import Json.Decode as Decode
 
 
 
